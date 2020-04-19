@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'formApp';
+  title = 'fRegistration Form';
+  model:any=[];
+
+  onSubmit() {
+    console.log(this.model);
+  }
 }
